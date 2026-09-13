@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTOS - Iniciar sesión</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="login-body">
+
+    <div class="login-container">
+
+        <h1>PRODUCTOS</h1>
+
+        <h2>Inicio de sesión</h2>
+
+        <form id="loginForm">
+
+            <label for="usuario">Usuario</label>
+
+            <input
+                type="text"
+                id="usuario"
+                autocomplete="username"
+                required
+            >
+
+            <label for="password">Contraseña</label>
+
+            <input
+                type="password"
+                id="password"
+                autocomplete="current-password"
+                required
+            >
+
+            <button type="submit">
+                Ingresar
+            </button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+        <div class="datos-demo">
+
+            <p>
+                <strong>Administrador:</strong>
+                admin / admin123
+            </p>
+
+            <p>
+                <strong>Usuario:</strong>
+                usuario / usuario123
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
