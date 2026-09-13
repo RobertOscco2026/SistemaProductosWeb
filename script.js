@@ -309,7 +309,7 @@ if (
     if (!usuarioActual || !rolActual) {
 
         window.location.href =
-            "login.html";
+            "index.html";
 
     } else {
 
@@ -474,7 +474,7 @@ if (
     if (!usuarioActual || !rolActual) {
 
         window.location.href =
-            "login.html";
+            "index.html";
 
     }
 
@@ -552,7 +552,7 @@ if (botonCerrar) {
 
 
             window.location.href =
-                "login.html";
+                "index.html";
 
         }
     );
